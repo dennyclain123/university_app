@@ -1,8 +1,11 @@
-# university_searcher
-
-A new Flutter project.
-
-## Getting Started
+# University Searching App
+![65968](https://user-images.githubusercontent.com/46857727/133474658-0ad06409-4e93-4147-97fd-cbdeaf3c7cab.jpg)
+## Requirements
+```
+  http: ^0.13.3
+  url_launcher: ^6.0.9
+  pull_to_refresh: ^2.0.0
+```
 
 This project is a starting point for a Flutter application.
 
