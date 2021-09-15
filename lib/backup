@@ -1,0 +1,12 @@
+ if(resOb.errState == ErrState.notFoundErr){
+                return Text("404 Not Found!!");
+              }else if(resOb.errState == ErrState.serverErr){
+                return Text("500 Internal Server Error");
+              }else{
+                return Text("Unknown Error");
+              }
+            }else{
+              return Center(
+                child: CircularProgressIndicator(),
+              );
+            }
